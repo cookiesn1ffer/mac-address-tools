@@ -16,6 +16,6 @@ A small collection of Python tools to **view, change, or randomize** your system
   ```bash
   sudo apt install macchanger
 ```
-  ```bash
+
   sudo pacman -S macchanger
 ```
