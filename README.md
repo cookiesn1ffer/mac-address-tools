@@ -12,10 +12,17 @@ A small collection of Python tools to **view, change, or randomize** your system
 ## ⚙️ Requirements
 - Linux OS
 - Python 3.x
-- `macchanger` (for randomizer):
-  ```bash
-  sudo apt install macchanger
-  ```
+- `macchanger` (for randomizer)
 
-  sudo pacman -S macchanger
-  ```
+Install `macchanger` on common distros:
+
+**Debian / Ubuntu / Mint**
+```bash
+sudo apt update
+sudo apt install macchanger
+Arch / Manjaro
+
+bash
+￼Copy code
+sudo pacman -Syu
+sudo pacman -S macchanger
