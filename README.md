@@ -1,21 +1,17 @@
-
 # 🧠 MAC Address Tools
 
-A collection of simple Python scripts to view, change, and randomize your system's MAC address using Linux commands.
+![Python](https://img.shields.io/badge/python-3.x-blue?logo=python)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Linux-orange)
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
 
-## Scripts
+A small collection of Python tools to **view, change, or randomize** your system's MAC address for **ethical hacking labs** and **network testing**.
 
-- `mac_address_changer_cli.py` — CLI (opts: -i / -m)
-- `mac_address_changer_basic.py` — interactive prompt
-- `mac_address_randomizer.py` — uses macchanger to randomize
+---
 
-## Requirements
-- Linux
-- python3
-- macchanger (for randomizer): sudo apt install macchanger
-
-## Author
-Aarush P (Cookie)
-
-## Disclaimer
-For educational / lab use only.
+## ⚙️ Requirements
+- Linux OS
+- Python 3.x
+- `macchanger` (for randomizer):
+  ```bash
+  sudo apt install macchanger
