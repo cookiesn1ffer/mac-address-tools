@@ -15,3 +15,6 @@ A small collection of Python tools to **view, change, or randomize** your system
 - `macchanger` (for randomizer):
   ```bash
   sudo apt install macchanger
+
+  ```bash
+  sudo pacman -S macchanger
